@@ -1,0 +1,43 @@
+@font-face {
+  font-family: Robot;
+  src: url(Roboto-Regular.ttf);
+}
+body {
+  color: rgb(223, 221, 221);
+  font-family: Robot;
+  background: url("dark-theme-foggy-mountains-full-moon-drsp0bosfotvrzxa.jpg")
+    no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+.Frosted {
+  background-color: rgba(31, 31, 31, 0.3);
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  width: 600px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+input {
+  background-color: rgba(0, 0, 0, 0.459);
+  color: white;
+  border: none;
+  height: 1.2rem;
+  border-radius: 0.5rem;
+}
+
+input[type="submit"] {
+  padding: 10px 20px;
+  height: 2rem;
+  background-color: #000000;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
